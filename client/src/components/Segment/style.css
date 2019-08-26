@@ -1,0 +1,10 @@
+.segment-box{
+    border: 2px solid rgba(34,36,38,.15);
+    border-radius: 1em;
+    margin: 1rem;
+    box-shadow: 10px 10px 10px hsl(0, 0%, 53%) !important;
+    padding: 2rem;
+    /* height: 25vh; */
+    min-height: 18vmin;
+    margin: 0px;
+}

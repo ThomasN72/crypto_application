@@ -1,0 +1,15 @@
+.grid-contianer{
+    display: grid;
+}
+
+.portal-segment{
+    left: 80%;
+    position: fixed !important;
+    top: 10%;
+    z-Index: 1000
+}
+
+.portal-button{
+    position: absolute;
+    right: 3%;
+}

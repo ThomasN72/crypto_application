@@ -1,0 +1,35 @@
+.email-form{
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.contact-style{
+  font-family: Sans-serif;
+}
+
+.contact-header{
+  font-family: Sans-serif;
+  font-size: 50px !important;
+  margin-top: 40px !important;
+  text-align: center;
+}
+
+input:focus-within {
+  border-width: 2px !important;
+  border-color: darkred !important;
+  color: black;
+}
+
+.field {
+  font-size:20px;
+}
+
+.field:focus-within > label[for]{
+  font-size: 25px;
+  text-decoration: underline;
+  transition: all 1.5s;
+}
+
+.email-header{
+  font-size: 25px !important;
+}
