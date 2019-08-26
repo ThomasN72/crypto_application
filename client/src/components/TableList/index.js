@@ -23,7 +23,7 @@ const TableList = (props) => {
                             <Table.Cell>{`$ ${crypto.priceUsd}`}</Table.Cell>
                             <Table.Cell>{`$ ${crypto.market_cap}`}</Table.Cell>
                         </Table.Row>
-                    )})
+                    ))}
                 </Table.Body>
             </Table>
         </Segment>
