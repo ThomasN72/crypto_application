@@ -9,14 +9,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-            <Router>
-              <Sidebar/> 
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/contact" component={Contact} />
-                <Route component={NoMatch} />
-              </Switch>
-            </Router>
+      <Router>
+        <Sidebar/> 
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={Contact} />
+          <Route component={NoMatch} />
+        </Switch>
+      </Router>
     );
   }
 }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Icon, Menu, Sidebar } from 'semantic-ui-react'
+import { Icon, Menu, Sidebar, Item } from 'semantic-ui-react'
 import { Link } from "react-router-dom";
 import "./style.css";
 
 export default class SidebarExampleSidebar extends Component {
   state = { 
-      visible: true,
+      // visible: true,
       animation: "push",
       marginIsVisible: {
         marginLeft: '170px'
@@ -13,7 +13,6 @@ export default class SidebarExampleSidebar extends Component {
       margin: {
         marginLeft: '50px'
       },
-      size: true
     }
 
     handleItemClick = (e, { name }) => this.setState(prevState => (
@@ -25,7 +24,7 @@ export default class SidebarExampleSidebar extends Component {
     }
 
   render() {
-    const { activeItem, visible } = this.state
+    const { activeItem } = this.state
 
     return (
       <div>
@@ -34,10 +33,9 @@ export default class SidebarExampleSidebar extends Component {
             animation='overlay'
             icon='labeled'
             inverted
-            animation={this.state.animation}
             className="sidebar-style"
             vertical
-            visible={visible}
+            visible={true}
             width="thin"
           >
               <Link to="/">

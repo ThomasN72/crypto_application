@@ -6,7 +6,6 @@ export default {
     ;
   },
   getCrytoHistoricalAPI: (crypto) => {
-    console.log('cryt', crypto)
     return axios.get("/api/historical", {params: {q: crypto}})
   },
   sendEmail: function(emailInfo){
