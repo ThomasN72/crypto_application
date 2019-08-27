@@ -3,8 +3,6 @@ import "./style.css";
 import { Button, Grid, Message, Menu, Icon, Header, Table, Segment} from 'semantic-ui-react';
 import { VictoryChart, VictoryLine, VictoryTheme, VictoryAxis, VictoryVoronoiContainer} from "victory";
 
-
-
 const Graph = (props) => {
       
     return (
@@ -19,40 +17,22 @@ const Graph = (props) => {
                 <VictoryVoronoiContainer
                   labels={(d) => `${d.datum.x}, $${d.datum.y}`}
                 />
-            }
-            
-            >
-
-<VictoryAxis 
-    // width={400}
-    // height={400}
-    // domain={[-10, 10]}
-    theme={VictoryTheme.material}
-    standalone={false}
-    style={{
-                        
-        tickLabels: {fontSize: 5, padding: 5}
-      }}
-  />
-  <VictoryAxis dependentAxis crossAxis
-    // width={400}
-    // height={400}
-    // domain={[-10, 10]}
-    theme={VictoryTheme.material}
-    standalone={false}
-    style={{
-                        
-        tickLabels: {fontSize: 8, padding: 5}
-      }}
-  />
-                
-                  {/* <VictoryAxis 
-                      style={{
-                        
+            }>
+                <VictoryAxis 
+                    theme={VictoryTheme.material}
+                    standalone={false}
+                    style={{
+                                        
                         tickLabels: {fontSize: 5, padding: 5}
-                      }}
-                /> */}
-               
+                    }}
+                />
+                <VictoryAxis dependentAxis crossAxis
+                    theme={VictoryTheme.material}
+                    standalone={false}
+                    style={{
+                        tickLabels: {fontSize: 8, padding: 5}
+                    }}
+                />
                 <VictoryLine
                     style={{
                         data: { fill: "tomato", opacity: 0.7, stroke: "#4e73df" },

@@ -3,7 +3,7 @@ import { Message, Icon, Form, Container, Grid} from "semantic-ui-react";
 import API from "../utils/API"
 import "./Home.css";
 import TableList from "../components/TableList"
-import Chart from "../components/Graph"
+import Graph from "../components/Graph"
 import { dom } from '@fortawesome/fontawesome-svg-core'
 import _ from "lodash";
 import Dashboard from "./Dasboard"
@@ -19,11 +19,10 @@ class Home extends Component {
     }
 
     getDataAttribute = (data) =>    {
-        let crytoClicked = data.target.textContent
-        console.log('crytoClicke', crytoClicked)
+        let crytoClicked = data.target.parentNode.dataset.name;
+
         if(crytoClicked){
             let newSelected = this.state.crytos.filter(crypto => crypto.name === crytoClicked )
-            console.log(newSelected)
             if(newSelected.length > 0)
                 this.setState({selected: newSelected[0]}, () => this.getHistoricalPrices(this.state.selected.name))
         }
@@ -80,7 +79,7 @@ class Home extends Component {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={6}>
-                        <Chart 
+                        <Graph 
                             data={graphData}
                             title="Market Summary (Historical)"
                         />
