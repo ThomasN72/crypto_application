@@ -3,6 +3,10 @@
 
 # Crypto_Application
 Welcome to the crypto tracker. This tracker retrieves real time cryto prices and simulates profit/loss on crypto tradings.
+Simply click on each crypto on the table to receive real-time pricing and observe the trend of each cryptocurrency for the past 7 days.
+
+You can also enter *the number of shares* and *purchase price* to simulate potential profit/loss.
+
 
 Sample Url: https://nameless-beach-75795.herokuapp.com/
 
@@ -12,15 +16,15 @@ Sample Url: https://nameless-beach-75795.herokuapp.com/
 <img>
 
 ## Installation
-Use [node] to install packages
-This should install both client and server side packages.
+Run the below command to use [node] to install packages.
+The command should install both client and server side dependencies.
 (Please refer to package.json for package dependencies)
 ```node
 npm install
 ```
 
 ## Setup
-This crypto tracker uses 2 different API.
+This crypto tracker uses 2 different APIs.
 1. https://coinmarketcap.com/
 2. https://coincap.io 
 
@@ -28,7 +32,7 @@ MarketCap requires an API key which you can register and use the free version. C
 
 Create a .env file in the root folder and update the below information.
 
-Substitute the below with your own key and password. If you would like to use the contact form as well, go ahead and update all the email information.
+Substitute the below with your own API key and password. If you would like to use the contact form as well, go ahead and update all the email information, otherwise, skip the email section.
 
 ```
 EMAIL_HOST=smtp.gmail.com
@@ -40,7 +44,7 @@ CRYPTO_API=API KEY
 ```
 
 ## Usage
-Use npm start to begin running both client and server for debugging
+Use npm start to begin running locally and start debugging.
 ```node
 npm run start:prod
 ```
