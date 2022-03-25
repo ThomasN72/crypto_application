@@ -28,6 +28,8 @@ Simply click on each crypto on the table to receive real-time pricing and observ
 
 
 
+<video tabindex="-1" class="video-stream html5-main-video" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 1310px; height: 737px; left: 17px; top: 0px;" src="blob:https://www.youtube.com/47e0e8a9-b4fa-4ced-9a49-d8ed1b3edc64"></video>
+
 You can also enter *the number of shares* and *purchase price* to simulate potential profit/loss.
 
 
