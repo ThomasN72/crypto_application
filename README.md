@@ -2,18 +2,29 @@
 
 <div>hello world</div>
 <strong>hello world</strong>
- <iframe width="560" 
-         height="315" 
-         src="https://www.youtube.com/watch?v=hcLVxll-Rhw" 
-         title="YouTube video player" 
-         frameborder="0" 
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-         allowfullscreen>
- </iframe>
+<iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/watch?v=hcLVxll-Rhw" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
  
 # Crypto_Application
 Welcome to the crypto tracker. This tracker retrieves real time cryto prices and simulates profit/loss on crypto tradings.
 Simply click on each crypto on the table to receive real-time pricing and observe the trend of each cryptocurrency for the past 7 days.
+
+<iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/watch?v=hcLVxll-Rhw" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+
 
 You can also enter *the number of shares* and *purchase price* to simulate potential profit/loss.
 
