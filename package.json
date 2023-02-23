@@ -30,7 +30,7 @@
     "nodemailer": "^6.2.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
-    "sequelize": "^5.16.0",
+    "sequelize": "^6.28.2",
     "winston": "^3.2.1"
   },
   "devDependencies": {
